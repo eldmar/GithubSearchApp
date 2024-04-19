@@ -97,8 +97,7 @@ const handleInput = async ({ target: { value } }) => {
     }
 
     const user = await api.getUser(inputValue);
-    // const followers = await api.getFollowers(inputValue, 6);
-    // const repos = await api.getRepos(inputValue);
+
     // console.log("repos", repos);
 
     // Promise.all
